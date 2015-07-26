@@ -11,8 +11,13 @@ both = ['client','server'];
 Package.onUse(function(api) {
     api.versionsFrom('1.1.0.2');
 
-    api.use(['heaven7:wsl-core'], both);
-    api.imply(['heaven7:wsl-core']);
+    var packages = [
+        'heaven7:wsl-core',
+        'tap:i18n@1.5.1'
+    ];
+
+    api.use(packages, both);
+    api.imply(packages);
 
     api.use('session', 'client');
 
