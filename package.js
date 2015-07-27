@@ -13,7 +13,8 @@ Package.onUse(function(api) {
 
     var packages = [
         'heaven7:wsl-core',
-        'tap:i18n@1.5.1'
+        'tap:i18n@1.5.1',
+        'tap:i18n-ui'
     ];
 
     api.use(packages, both);
