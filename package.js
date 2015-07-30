@@ -14,7 +14,7 @@ Package.onUse(function(api) {
     var packages = [
         'heaven7:wsl-core@0.0.1',
         'tap:i18n@1.5.1',
-        'tap:i18n-ui'
+        'tap:i18n-ui@0.4.1'
     ];
 
     api.use(packages, both);
