@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     api.versionsFrom('1.1.0.2');
 
     var packages = [
-        'heaven7:wsl-core',
+        'heaven7:wsl-core@0.0.1',
         'tap:i18n@1.5.1',
         'tap:i18n-ui'
     ];
