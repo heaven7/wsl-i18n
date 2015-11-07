@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-i18n',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'I18n package',
   git: 'https://github.com/heaven7/wsl-i18n.git',
   documentation: 'README.md'
@@ -9,12 +9,12 @@ Package.describe({
 both = ['client','server'];
 
 Package.onUse(function(api) {
-    api.versionsFrom('1.1.0.2');
+    api.versionsFrom('1.2');
 
     var packages = [
         'heaven7:wsl-core@0.0.1',
-        'tap:i18n@1.5.1',
-        'tap:i18n-ui@0.4.1'
+        'tap:i18n@1.7.0',
+        'tap:i18n-ui@0.7.0'
     ];
 
     api.use(packages, both);
