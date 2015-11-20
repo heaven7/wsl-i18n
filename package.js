@@ -23,4 +23,8 @@ Package.onUse(function(api) {
     api.use('session', 'client');
 
     api.addFiles('lib/both/i18n.js', both);
+
+    api.export([
+        'i18n'
+    ]);
 });
