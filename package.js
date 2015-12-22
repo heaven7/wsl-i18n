@@ -14,7 +14,8 @@ Package.onUse(function(api) {
     var packages = [
         'heaven7:wsl-core@0.0.2',
         'tap:i18n@1.7.0',
-        'tap:i18n-ui@0.7.0'
+        'tap:i18n-ui@0.7.0',
+        'gwendall:autoform-i18n@0.1.9_1'
     ];
 
     api.use(packages, both);
