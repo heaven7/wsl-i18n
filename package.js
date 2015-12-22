@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-i18n',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'I18n package',
   git: 'https://github.com/heaven7/wsl-i18n.git',
   documentation: 'README.md'
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     api.versionsFrom('1.2');
 
     var packages = [
-        'heaven7:wsl-core@0.0.2',
+        'heaven7:wsl-core@0.0.3',
         'tap:i18n@1.7.0',
         'tap:i18n-ui@0.7.0',
         'gwendall:autoform-i18n@0.1.9_1'
