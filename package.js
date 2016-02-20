@@ -12,7 +12,8 @@ Package.onUse(function(api) {
     api.versionsFrom('1.2');
 
     var packages = [
-        'heaven7:wsl-core@0.0.3',
+        'heaven7:wsl-core@0.0.3_1',
+        'heaven7:wsl-translations@0.0.3',
         'tap:i18n@1.7.0',
         'tap:i18n-ui@0.7.0',
         'gwendall:autoform-i18n@0.1.9_1'
