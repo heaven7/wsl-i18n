@@ -1,6 +1,6 @@
 Package.describe({
   name: 'heaven7:wsl-i18n',
-  version: '0.0.3',
+  version: '0.0.3_1',
   summary: 'I18n package',
   git: 'https://github.com/heaven7/wsl-i18n.git',
   documentation: 'README.md'
