@@ -1,0 +1,12 @@
+<template name="language_switcher">
+    {{#if i18n_enabled}}
+        {{i18n_isCurrentLanguage tag}}
+        <div class="i18n_language_switch">
+            <select class="{{class}}" id="language_switcher" name="languageSwitcher">
+                {{#each i18n_sortedLanguages}}
+                    <option value="{{tag}}" selected="{{i18n_isCurrentLanguage tag}}">{{name}}</option>
+                {{/each}}
+            </select>
+        </div>
+    {{/if}}
+</template>
