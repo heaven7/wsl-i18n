@@ -16,7 +16,8 @@ var both = ['client','server'],
         'gwendall:autoform-i18n@0.1.9_1',
         'gwendall:simple-schema-i18n@0.2.1',
         'ecmascript',
-        'es5-shim'
+        'es5-shim',
+        'jquery'
     ]
 
 Package.onUse(function(api) {
